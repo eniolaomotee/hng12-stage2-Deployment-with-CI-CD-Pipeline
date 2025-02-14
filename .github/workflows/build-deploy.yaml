@@ -20,8 +20,7 @@ jobs:
       - name: Run tests with pytest
         run: |
           pip install pytest
-          pytest
-          exit 1 
+          pytest . || exit 1
 
 
   deploy:
