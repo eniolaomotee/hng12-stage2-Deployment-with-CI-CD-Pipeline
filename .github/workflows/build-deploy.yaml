@@ -21,7 +21,7 @@ jobs:
         continue-on-error: true
         run: |
           pip install pytest
-          if ! pytest --maxfail=1 --disablewarnings; then
+          if ! pytest .; then
             exit 1
           fi  
 
