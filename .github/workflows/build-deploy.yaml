@@ -3,7 +3,7 @@ name: Build and Deploy Code
 on: [push,pull_request]
 
 
-test:
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
