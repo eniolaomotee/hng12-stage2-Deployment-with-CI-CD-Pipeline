@@ -1,8 +1,4 @@
 import secrets
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/main
 from pydantic_settings import BaseSettings
 
 
