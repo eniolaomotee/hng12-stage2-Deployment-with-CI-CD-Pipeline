@@ -6,7 +6,6 @@ on: [pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    continue-on-error: false
     steps:
       - name: pulling git repo
         uses: actions/checkout@v2
